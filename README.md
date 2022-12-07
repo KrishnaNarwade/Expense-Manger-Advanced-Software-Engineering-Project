@@ -19,10 +19,25 @@ This activity diagram shows progression and action of the Expense tracker tool.
 This Use-case diagrams describe the high-level functions and scope of a Expense tracker tool.
 It also shows interaction between User and System.
 
+# 3) UML Diagram 
+Yet to be done.
 
+# 4) Metrics
+Yet to be done.
 
+# 5) Clean Code Development
+Yet to be done.
+# 6) Build Management
+Yet to be done.
+# 7) Tests 
+Yet to be done.
+# 8) Continuous Delivery
+Yet to be done.
+# 9) IDE
+I choosed Visual studio as an IDE for this Project
 
-
+My Faviourite Shortcut tools are 
+1) ctrl + L : It allows me to clear the output console
 
 
 
