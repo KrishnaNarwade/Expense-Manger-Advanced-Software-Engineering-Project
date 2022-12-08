@@ -20,7 +20,7 @@ This Use-case diagrams describe the high-level functions and scope of a Expense 
 It also shows interaction between User and System.
 
 # 3) UML Diagram 
-Yet to be done.
+Yet to be done. [a link](https://github.com/user/repo/blob/branch/other_file.md)
 
 # 4) Metrics
 Yet to be done.
