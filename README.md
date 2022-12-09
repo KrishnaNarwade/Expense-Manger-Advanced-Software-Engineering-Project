@@ -19,10 +19,11 @@ This activity diagram shows progression and action of the Expense tracker tool.
 This Use-case diagrams describe the high-level functions and scope of a Expense tracker tool.
 It also shows interaction between User and System.
 
-3)
+3) Component diagram (Still in progress.)
+This Component diagram will show the components the expense tracker tool and how they are wired together.
 
 # 3) DDD
-Attaching the Darft version of the DDD diagram. 
+Attaching the Darft version of the [DDD](https://github.com/KrishnaNarwade/Expense-Manger-Advanced-Software-Engineering-Project/blob/main/UML%20Diagrams./DDD%20Expense%20Tracker.jpg) diagram. 
 
 # 4) Metrics
 Yet to be done.
