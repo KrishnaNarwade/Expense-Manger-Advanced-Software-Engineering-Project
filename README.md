@@ -1,6 +1,8 @@
 # Expense-Tracker-Advanced-Software-Engineering-Project
 Hi , This Repository contains Expense Manger Project using Python 
 
+Overview of code Metrics :[![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=KrishnaNarwade_Expense-Manger-Advanced-Software-Engineering-Project)](https://sonarcloud.io/summary/new_code?id=KrishnaNarwade_Expense-Manger-Advanced-Software-Engineering-Project)
+
 # General
 This repository contains a simple Expense manager. You can track your expense and budget get to know where you are spending your money. It already comes with options of adding , deleting, modifying, getting current date of the puchase. Furthermore, it comes with the functionality to Get the vizulised chart and graphics of what and where you have spent your valuable money.
 
@@ -34,7 +36,7 @@ Attaching the Darft version of the [DDD](https://github.com/KrishnaNarwade/Expen
 - Duplicated Lines (%) : [![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=KrishnaNarwade_Expense-Manger-Advanced-Software-Engineering-Project&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=KrishnaNarwade_Expense-Manger-Advanced-Software-Engineering-Project)
 - Reliability Rating : [![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=KrishnaNarwade_Expense-Manger-Advanced-Software-Engineering-Project&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=KrishnaNarwade_Expense-Manger-Advanced-Software-Engineering-Project)
 - Lines of Code : [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=KrishnaNarwade_Expense-Manger-Advanced-Software-Engineering-Project&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=KrishnaNarwade_Expense-Manger-Advanced-Software-Engineering-Project)
-- Quality gate : [![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=KrishnaNarwade_Expense-Manger-Advanced-Software-Engineering-Project)](https://sonarcloud.io/summary/new_code?id=KrishnaNarwade_Expense-Manger-Advanced-Software-Engineering-Project)
+
 # 5) Clean Code Development
 Yet to be done.
 # 6) Build Management
