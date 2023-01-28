@@ -27,18 +27,7 @@ Attaching the Darft version of the [DDD](https://github.com/KrishnaNarwade/Expen
 
 # 4) Metrics
 
-- Maintainability Rating : [![Maintainability Rating]([https://sonarcloud.io/api/project_badges/measure?project=Manav-56_FitnessApp&metric=sqale_rating](https://sonarcloud.io/component_measures?id=KrishnaNarwade_Expense-Manger-Advanced-Software-Engineering-Project&metric=new_reliability_rating&view=list))]
-
-
-- Security Rating :        [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=Manav-56_FitnessApp&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=Manav-56_FitnessApp)
-- Bugs :                   [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=Manav-56_FitnessApp&metric=bugs)](https://sonarcloud.io/summary/new_code?id=Manav-56_FitnessApp)
-- Vulnerabilities :        [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=Manav-56_FitnessApp&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=Manav-56_FitnessApp)
-- Duplicated Lines (%) :   [![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=Manav-56_FitnessApp&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=Manav-56_FitnessApp)
-- Reliability Rating :     [![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=Manav-56_FitnessApp&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=Manav-56_FitnessApp)
-- Lines of Code :          [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=Manav-56_FitnessApp&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=Manav-56_FitnessApp)
-- Code smells :            [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=Manav-56_FitnessApp&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=Manav-56_FitnessApp)
-- Technical Debt :         [![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=Manav-56_FitnessApp&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=Manav-56_FitnessApp)
-
+- Maintainability Rating : [![Maintainability Rating](https://sonarcloud.io/component_measures?id=KrishnaNarwade_Expense-Manger-Advanced-Software-Engineering-Project&metric=new_reliability_rating&view=list)
 # 5) Clean Code Development
 Yet to be done.
 # 6) Build Management
