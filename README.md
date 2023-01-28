@@ -27,7 +27,7 @@ Attaching the Darft version of the [DDD](https://github.com/KrishnaNarwade/Expen
 
 # 4) Metrics
 
-- Maintainability Rating : [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=Manav-56_FitnessApp&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=Manav-56_FitnessApp)
+- Maintainability Rating : [![Maintainability Rating](https://sonarcloud.io/component_measures?metric=new_reliability_rating&view=list&id=KrishnaNarwade_Expense-Manger-Advanced-Software-Engineering-Project)](https://sonarcloud.io/summary/new_code?id=KrishnaNarwade_Expense-Manger-Advanced-Software-Engineering-Project)
 - 
 # 5) Clean Code Development
 Yet to be done.
