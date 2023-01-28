@@ -27,7 +27,9 @@ Attaching the Darft version of the [DDD](https://github.com/KrishnaNarwade/Expen
 
 # 4) Metrics
 
-- Maintainability Rating : [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=Manav-56_FitnessApp&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=Manav-56_FitnessApp)
+- Maintainability Rating : [![Maintainability Rating]([https://sonarcloud.io/api/project_badges/measure?project=Manav-56_FitnessApp&metric=sqale_rating](https://sonarcloud.io/component_measures?id=KrishnaNarwade_Expense-Manger-Advanced-Software-Engineering-Project&metric=new_reliability_rating&view=list))]
+
+
 - Security Rating :        [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=Manav-56_FitnessApp&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=Manav-56_FitnessApp)
 - Bugs :                   [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=Manav-56_FitnessApp&metric=bugs)](https://sonarcloud.io/summary/new_code?id=Manav-56_FitnessApp)
 - Vulnerabilities :        [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=Manav-56_FitnessApp&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=Manav-56_FitnessApp)
