@@ -1,111 +1,26 @@
-"""#1. module
-from mydb import *
-
-#2. object for database
-data = Database(db='myexpense.db')
-
-#3. global variables
-count = 0
-selected_rowid = 0
-
-#4. functions
-def saveRecord():
-    global data
-    data.insertRecord(item_name=item_name.get(), item_price=item_amt.get(), purchase_date=transaction_date.get())
-       
-def setDate():
-    date = dt.datetime.now()
-    dopvar.set(f'{date:%d %B %Y}')
-
-def clearEntries():
-    item_name.delete(0, 'end')
-    item_amt.delete(0, 'end')
-    transaction_date.delete(0, 'end')
-
-def fetch_records():
-    f = data.fetchRecord('select rowid, * from expense_record')
-    global count
-    for rec in f:
-        tv.insert(parent='', index='0', iid=count, values=(rec[0], rec[1], rec[2], rec[3]))
-        count += 1
-    tv.after(400, refreshData)
-
-def select_record(event):
-    global selected_rowid
-    selected = tv.focus()    
-    val = tv.item(selected, 'values')
-  
-    try:
-        selected_rowid = val[0]
-        d = val[3]
-        namevar.set(val[1])
-        amtvar.set(val[2])
-        dopvar.set(str(d))
-    except Exception as ep:
-        pass
-
-
-def update_record():
-    global selected_rowid
-
-    selected = tv.focus()
-	# Update record
-    try:
-        data.updateRecord(namevar.get(), amtvar.get(), dopvar.get(), selected_rowid)
-        tv.item(selected, text="", values=(namevar.get(), amtvar.get(), dopvar.get()))
-    except Exception as ep:
-        messagebox.showerror('Error',  ep)
-
-	# Clear entry boxes
-    item_name.delete(0, END)
-    item_amt.delete(0, END)
-    transaction_date.delete(0, END)
-    tv.after(400, refreshData)
-    
-
-def totalBalance():
-    f = data.fetchRecord(query="Select sum(item_price) from expense_record")
-    for i in f:
-        for j in i:
-            messagebox.showinfo('Current Balance: ', f"Total Expense: ' {j} \nBalance Remaining: {5000 - j}")
-
-def refreshData():
-    for item in tv.get_children():
-      tv.delete(item)
-    fetch_records()
-    
-def deleteRow():
-    global selected_rowid
-    data.removeRecord(selected_rowid)
-    refreshData()
-
-print"""
-
-
-# import modules 
 from tkinter import *
 from tkinter import ttk
 import datetime as dt
-from mydb import *
+from mydb import Database
 from tkinter import messagebox
 
 # object for database
 data = Database(db='test.db')
 
-# global variables
+
 count = 0
 selected_rowid = 0
 
 # functions
-def saveRecord():
+def Save_record():
     global data
     data.insertRecord(item_name=item_name.get(), item_price=item_amt.get(), purchase_date=transaction_date.get())
        
-def setDate():
+def Set_date():
     date = dt.datetime.now()
     dopvar.set(f'{date:%d %B %Y}')
 
-def clearEntries():
+def Clear_entries():
     item_name.delete(0, 'end')
     item_amt.delete(0, 'end')
     transaction_date.delete(0, 'end')
@@ -116,7 +31,7 @@ def fetch_records():
     for rec in f:
         tv.insert(parent='', index='0', iid=count, values=(rec[0], rec[1], rec[2], rec[3]))
         count += 1
-    tv.after(400, refreshData)
+    tv.after(400, Refresh_data)
 
 def select_record(event):
     global selected_rowid
@@ -129,7 +44,7 @@ def select_record(event):
         namevar.set(val[1])
         amtvar.set(val[2])
         dopvar.set(str(d))
-    except Exception as ep:
+    except Exception:
         pass
 
 
@@ -148,24 +63,24 @@ def update_record():
     item_name.delete(0, END)
     item_amt.delete(0, END)
     transaction_date.delete(0, END)
-    tv.after(400, refreshData)
+    tv.after(400, Refresh_data)
     
 
-def totalBalance():
+def Total_balance():
     f = data.fetchRecord(query="Select sum(item_price) from expense_record")
     for i in f:
         for j in i:
             messagebox.showinfo('Current Balance: ', f"Total Expense: ' {j} \nBalance Remaining: {5000 - j}")
 
-def refreshData():
+def Refresh_data():
     for item in tv.get_children():
       tv.delete(item)
     fetch_records()
     
-def deleteRow():
+def Delete_row():
     global selected_rowid
     data.removeRecord(selected_rowid)
-    refreshData()
+    Refresh_data()
 
 # create tkinter object
 ws = Tk()
@@ -211,7 +126,7 @@ cur_date = Button(
     text='Current Date', 
     font=f, 
     bg='#04C4D9', 
-    command=setDate,
+    command=Set_date,
     width=15
     )
 
@@ -219,7 +134,7 @@ submit_btn = Button(
     f1, 
     text='Save Record', 
     font=f, 
-    command=saveRecord, 
+    command=Save_record, 
     bg='#42602D', 
     fg='white'
     )
@@ -228,7 +143,7 @@ clr_btn = Button(
     f1, 
     text='Clear Entry', 
     font=f, 
-    command=clearEntries, 
+    command=Clear_entries, 
     bg='#D9B036', 
     fg='white'
     )
@@ -247,7 +162,7 @@ total_bal = Button(
     text='Total Balance',
     font=f,
     bg='#486966',
-    command=totalBalance
+    command=Total_balance
 )
 
 total_spent = Button(
@@ -269,7 +184,7 @@ del_btn = Button(
     f1, 
     text='Delete',
     bg='#BD2A2E',
-    command=deleteRow,
+    command=Delete_row,
     font=f
 )
 
