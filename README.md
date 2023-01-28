@@ -29,8 +29,12 @@ Attaching the Darft version of the [DDD](https://github.com/KrishnaNarwade/Expen
 
 - Maintainability : [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=KrishnaNarwade_Expense-Manger-Advanced-Software-Engineering-Project&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=KrishnaNarwade_Expense-Manger-Advanced-Software-Engineering-Project)
 - Security Rating : [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=KrishnaNarwade_Expense-Manger-Advanced-Software-Engineering-Project&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=KrishnaNarwade_Expense-Manger-Advanced-Software-Engineering-Project)
-- [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=KrishnaNarwade_Expense-Manger-Advanced-Software-Engineering-Project&metric=bugs)](https://sonarcloud.io/summary/new_code?id=KrishnaNarwade_Expense-Manger-Advanced-Software-Engineering-Project)
-- 
+- Bugs : [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=KrishnaNarwade_Expense-Manger-Advanced-Software-Engineering-Project&metric=bugs)](https://sonarcloud.io/summary/new_code?id=KrishnaNarwade_Expense-Manger-Advanced-Software-Engineering-Project)
+- Vulnerabilities: [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=KrishnaNarwade_Expense-Manger-Advanced-Software-Engineering-Project&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=KrishnaNarwade_Expense-Manger-Advanced-Software-Engineering-Project)
+- Duplicated Lines (%) : [![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=KrishnaNarwade_Expense-Manger-Advanced-Software-Engineering-Project&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=KrishnaNarwade_Expense-Manger-Advanced-Software-Engineering-Project)
+- Reliability Rating : [![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=KrishnaNarwade_Expense-Manger-Advanced-Software-Engineering-Project&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=KrishnaNarwade_Expense-Manger-Advanced-Software-Engineering-Project)
+- Lines of Code : [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=KrishnaNarwade_Expense-Manger-Advanced-Software-Engineering-Project&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=KrishnaNarwade_Expense-Manger-Advanced-Software-Engineering-Project)
+- Quality gate : [![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=KrishnaNarwade_Expense-Manger-Advanced-Software-Engineering-Project)](https://sonarcloud.io/summary/new_code?id=KrishnaNarwade_Expense-Manger-Advanced-Software-Engineering-Project)
 # 5) Clean Code Development
 Yet to be done.
 # 6) Build Management
