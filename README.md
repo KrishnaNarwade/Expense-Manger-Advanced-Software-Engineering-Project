@@ -47,6 +47,7 @@ Yet to be done.
 Yet to be done.
 # 9) IDE
 I choosed Visual studio as an IDE for this Project
+VS Code helps you be instantly productive with syntax highlighting, bracket-matching, auto-indentation, box-selection, snippets, and more
 
 My Faviourite Shortcut tools are 
 1) ctrl + L : It allows me to clear the output console
