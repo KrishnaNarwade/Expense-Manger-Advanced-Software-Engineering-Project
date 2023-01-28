@@ -9,21 +9,21 @@ class Database:
             "CREATE TABLE IF NOT EXISTS expense_record (item_name text, item_price float, purchase_date date)")
         self.conn.commit()
 
-    def Fetch_record(self, query):
+    def fetch_record(self, query):
         self.cur.execute(query)
         rows = self.cur.fetchall()
         return rows
 
-    def Insert_record(self, item_name, item_price, purchase_date):
+    def insert_record(self, item_name, item_price, purchase_date):
         self.cur.execute("INSERT INTO expense_record VALUES (?, ?, ?)",
                          (item_name, item_price, purchase_date))
         self.conn.commit()
 
-    def Remove_record(self, rwid):
+    def remove_record(self, rwid):
         self.cur.execute("DELETE FROM expense_record WHERE rowid=?", (rwid,))
         self.conn.commit()
 
-    def Update_record(self, item_name, item_price, purchase_date, rid):
+    def update_record(self, item_name, item_price, purchase_date, rid):
         self.cur.execute("UPDATE expense_record SET item_name = ?, item_price = ?, purchase_date = ? WHERE rowid = ?",
                          (item_name, item_price, purchase_date, rid))
         self.conn.commit()
