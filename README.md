@@ -26,7 +26,8 @@ This Component diagram will show the components the expense tracker tool and how
 Attaching the Darft version of the [DDD](https://github.com/KrishnaNarwade/Expense-Manger-Advanced-Software-Engineering-Project/blob/main/UML%20Diagrams./DDD%20Expense%20Tracker.jpg) diagram. 
 
 # 4) Metrics
-https://sonarcloud.io/summary/new_code?id=KrishnaNarwade_Expense-Manger-Advanced-Software-Engineering-Project
+
+![Kattni's GitHub stats](https://sonarcloud.io/summary/new_code?id=KrishnaNarwade_Expense-Manger-Advanced-Software-Engineering-Project)
 
 # 5) Clean Code Development
 Yet to be done.
