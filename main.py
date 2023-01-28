@@ -77,7 +77,7 @@ def refresh_data():
       tv.delete(item)
     fetch_records()
     
-def Delete_row():
+def delete_row():
     global selected_rowid
     data.removeRecord(selected_rowid)
     refresh_data()
@@ -184,7 +184,7 @@ del_btn = Button(
     f1, 
     text='Delete',
     bg='#BD2A2E',
-    command=Delete_row,
+    command=delete_row,
     font=f
 )
 
